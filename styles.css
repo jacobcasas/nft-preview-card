@@ -121,3 +121,51 @@ svg {
 
 .ff-heading {font-family: var(--ff-heading);}
 .ff-body {font-family: var(--ff-body);}
+
+/* General styles */
+
+html {
+  background-color: var(--clr-bg-800);
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+.card {
+  background-color: var(--clr-neutral-200);
+  margin: 1.7rem;
+  border: 3px solid white;
+  border-radius: 25px;
+
+}
+
+.container {
+  padding: 2rem;
+}
+
+.main-p {
+  padding: .25rem;
+  /* border: 3px solid red; */
+}
+
+.even-columns {
+  display: flex;
+  gap: 25rem
+}
+
+.left {
+  display: flex;
+  margin: .5rem;
+  padding: .5rem;
+}
+
+.eth-icon {
+  margin: 0;
+  padding: .25rem;
+}
+
+
+
+
+
